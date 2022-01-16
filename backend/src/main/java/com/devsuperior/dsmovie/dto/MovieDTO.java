@@ -10,10 +10,9 @@ public class MovieDTO {
 	private Integer count;
 	private String image;
 	
-	public MovieDTO() {
-		
+	public MovieDTO(){
 	}
-	
+
 	public MovieDTO(Long id, String title, Double score, Integer count, String image) {
 		this.id = id;
 		this.title = title;
@@ -69,5 +68,4 @@ public class MovieDTO {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
 }
